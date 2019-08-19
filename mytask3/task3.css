@@ -38,3 +38,6 @@
             color: white;
             float:right;
         }
+           p{
+             justify-content:center;         
+           }
