@@ -1,0 +1,98 @@
+html,body{ 
+    height:100%;
+    background-color:rgb(239,240,244);
+    }
+
+header{
+    width:100%;
+    height:50px;
+    color:white;
+    background-color:rgb(104,205,213);
+    display:flex;
+    justify-content:space-between;
+    display: flex;
+    align-items:center;
+    position:fixed;
+    z-index:9999;
+    
+}
+.shangtian{
+    width:100%;
+    height:50px;
+    background-color:transparent;
+}
+.login{
+        display:flex;
+        justify-content:center;
+        font-weight:600;
+      }
+
+.register{margin-left:20px;}
+.Close{margin-right:20px;}
+
+
+
+div{
+        width:100%;
+        height:60px;
+    	background-color:white;
+}
+
+.box1{
+    margin-top:8px;
+}
+
+.phonelock{
+    width:82px;
+    display: flex;
+    align-items:center;
+    float:left;
+    
+}
+.mid{
+    height:30px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right:2px solid #ccc;
+}
+.iphone{
+        width:20px;
+        height: 100%;
+}
+.lock{
+    width:20px;
+    height: 100%;
+}
+.frame{
+    width:calc(100% - 82px);
+    float:left;
+    display: flex;
+    align-items:center;
+}
+
+input{
+    height: 50px;
+    outline:none;
+}
+
+.box2{
+    margin-top:8px;
+}
+.sign{
+    margin-top:8px;
+    width:100%;
+    height:70px;
+    background-color:rgb(104,205,213);
+    color:white;
+    font-weight:600;
+    font-size:25px;
+    outline:none;
+}
+.txt{
+    display: flex;
+    justify-content:flex-end;
+    color:rgb(104,205,213);
+    font-weight:600;
+    text-decoration:underline;
+}
