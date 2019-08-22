@@ -1,0 +1,157 @@
+html,
+body { 
+    height: 100%;
+    }
+
+header {
+    width: 100%;                                 /*盒子相对页面宽度*/   
+    height: 50px;                                /*盒子高度*/
+    color: white;                              /*字体颜色*/
+    font-weight: 600;                            /*字体加粗*/
+    background-color: rgb(104,205,213);        /*为盒子设定背景颜色*/
+    display: flex;                              /*将子元素排成一排*/
+    align-items: center;                         /*将子元素纵向居中*/
+    justify-content: space-between;              /*将子元素之间保持相等距离*/
+    position: fixed;                             /*将盒子固定在最顶部*/
+    z-index: 9999;                               /*页面中最高级，现在在最前面*/
+}
+.return {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;                           /*为自己添加左边距*/
+}
+.top {
+    width: 15px;
+    margin-right: 10px;
+}
+.a { width: 100%;
+    height: 50px;
+}
+
+
+
+.portrait-z {
+    width: 100%;
+    height: 170px;
+    background-image: url("background.png");     /*插入背景图片*/
+    background-size: 100%;                      /*背景图片相对于盒子的大小*/
+    background-repeat: no-repeat;                /*背景不重复出现在这个盒子*/
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.portrait {
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.name {
+    
+    line-height: 16px;                           /*设置行与行之间有间隔*/
+}
+.b {
+    font-size: 20px;                            /*字体大小*/
+}
+.Shape {
+    width: 10px;
+    height: 15px;
+}
+
+
+
+.c {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    border-bottom: 1.5px solid #ccc;           /*设置盒子边框*/
+}
+.rectangle {
+    width: 4px;
+    height: 18px;
+    margin: 10px;
+}
+
+
+.stars {
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+}
+
+
+.d {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ccc;
+}
+.e {
+    height: 22px;
+    padding-left: 15px;                             /*设置盒子填充*/
+    border-left: 1.5px solid #ccc;
+}
+
+.f {
+    height: 22px;
+    padding-left: 15px;
+    border-left: 1.5px solid #ccc;
+    color: red;
+}
+
+.g {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    height: auto;                                /*高度自动*/ 
+    border-bottom:1.5px solid #ccc;
+}
+.h {
+    width: 64px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1.5px solid #ccc;
+    color: #ccc;
+    
+}
+.i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: calc(100% - 110.5px);
+}
+
+
+.j {
+    display: flex;
+    align-items: center;
+    position: fixed;                                   
+    bottom: 0;                   /*把盒子固定在窗口最底部*/
+    width: 100%;
+                                            
+}
+
+.k {
+    width: calc(50% - 15px);                           /*设置盒子宽度。百分比-固定宽=剩余宽*/
+    height: 55px;                          
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 8px;                                /*设置圆角*/
+    background-color: white;
+    color:  rgb(104,205,213);
+    font-weight: 600;
+    border: 3px solid rgb(104,205,213);
+}
+.l {
+    width: calc(50% - 15px);
+    height: 55px;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: rgb(104,205,213);
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
