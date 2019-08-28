@@ -74,6 +74,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: calc(33.33% - 2px);
+    height: 40px;
     border-right: 1px solid rgb(225, 229, 231);
 }
 .diming{
@@ -98,7 +99,8 @@ header {
     border-color:rgb(175, 186, 192) transparent transparent transparent;
    }
 .diming .xiala{
-    text-align:center;
+    
+    text-align: center;
     display: none;
     /* 此元素不会被显示 */
     width:100%;
@@ -106,15 +108,18 @@ header {
     background-color:rgb(225, 229, 231);
     position: relative;  
 }
-.diming .xiala a:hover{
+.xiala:hover{
     cursor: pointer;
     /* 鼠标触碰显示区域 */
+    background-color:rgb(104, 205, 213);
+    color:white;
 }
 .diming:hover .xiala{
     display: block;
     /* 鼠标粗碰到的时候设置此元素将显示为块级元素，此元素前后会带有换行符。 */
     z-index: 9998;
     /* 设定鼠标碰到的时候，显示优先级最大，不会被其他元素挡住 */
+    
 }
 .u-a2{
     display: flex;
@@ -122,8 +127,9 @@ header {
     justify-content: space-between;
     width:33.33%;
 }
-
-
+a {
+    text-decoration: none;
+}
 
 
 
