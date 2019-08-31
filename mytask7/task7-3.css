@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+.g {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(41, 189, 224);
+}
+.g-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+.home {
+    margin-left: 15px;
+    width: 30px;
+    height: 25px;
+}
+.t-1a {
+    font-size:20px;
+}
+.zhuyi {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.g-two{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.jiangbei {
+    position:absolute;
+    width: 200px;
+    height: 120px;
+}
+.t-2a {
+    position:relative;
+    top:80px;
+    font-size:23px; 
+    color: white;
+}
+
+.g-three {
+    width: 80%;
+    height: 58px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.t-3a {
+    font-size:20px;
+    color: rgb(255, 200, 101);
+}
+
+.g-four{
+    
+    width: 80%;
+    height: 155px;
+    margin: 20px 10%;
+    color: white;
+}
+.m-4a {
+    display: flex;
+    margin: 5px 0px;
+}
+
+.top {
+    width: 100%;
+    height: 400px;
+}
+
+
+.g-five {
+    width: 100%;
+    height: 100px;
+    border-bottom:1px solid rgb(221, 221, 221)
+}
+.m-5a {
+    position:relative;
+     display: flex;
+     justify-content: space-between;
+}
+.t-5a {
+    margin-left: 10%;
+    font-size: 20px;
+}
+.t-5b {
+    position:absolute;
+    bottom: 0;
+    right: 10%;
+    color:rgb(166, 166, 166)
+}
+
+.m-5b {
+    margin: 15px 10%;
+    color:rgb(166, 166, 166)
+}
+
+
+.bottom {
+    width: 100%;
+    height: 80px; 
+}
+
+.g-six {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(41, 189, 224, 0.5);
+}
+.s-6a {
+    outline:none;
+    border: none;
+    width: 39%;
+    height: 60px;
+    margin: 10px 4%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(246, 111, 111);
+}
+.s-6b {
+    outline:none;
+    border: none;
+    width: 39%;
+    height: 60px;
+    margin: 10px 4%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(251, 180, 53);
+}
