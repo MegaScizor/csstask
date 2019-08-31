@@ -136,6 +136,8 @@ header {
 .m-3a{
     display: flex;
 }
+
+
 .u-3a {
     text-align:center;
     width: 17.8vw;
@@ -156,22 +158,23 @@ header {
     color: white;
     background-color: rgb(131, 176, 154);
 }
+
 .tubiao{
-    display: none;
+    visibility: hidden;
     width: 100%;
+    height: 25%;
     margin-top: 3vw;
-    
 }
 
 .u-3a:hover .tubiao{
-    display: block;
-    
+    visibility: visible;
     /* 鼠标粗碰到的时候设置此元素将显示为块级元素，此元素前后会带有换行符。 */
 }
 a {
     text-decoration: none;
     color:#000;
 }
+
 
 .four {
     position: fixed;
