@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body,
+html{
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+
+.g-noe {
+    width: 100%;
+    height: auto;
+    
+}
+.m-1a{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+}
+.t-1a {
+    font-size:14px;
+    color: rgb(41, 176, 120);
+}
+.u-1a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100px;
+    height: 100%;
+}
+.qq:hover{
+    width: 40px;
+    height: 40px;
+}
+.weibo:hover{
+    width: 40px;
+    height: 40px;
+}
+.vx:hover{
+    width: 40px;
+    height: 40px;
+}
+
+
+.m-1b {
+    position:relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 176, 120);
+}
+
+
+.u-1b {
+    position: absolute;
+    right: calc(10% - 34px);
+    /* (100-32)/2=34 用10%减去多余的宽度，让字体跟上面的图标对齐 */
+    display: flex;
+    
+}
+
+.u-1c {
+    display: none;
+    width: 100%;
+    height: 100px;
+}
+
+
+.f-1b {
+    /* 隐藏的按钮 */
+    position: absolute;
+    top: 5px;
+    right: 2vw;
+    width: 35px;
+    height: 40px;
+    border: 1px solid white;
+}
+.s-1a {
+    width: 25px;
+    height: 5px;
+    margin: 5px 4px;
+    background-color: white;
+}
+
+.f-1a {
+    text-align:center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.f-1a:hover {
+    border-bottom: 4px solid white;
+}
+
+
+@media only screen and (max-width: 426px) {
+    /* 媒体查询  如果浏览器宽度少于426则会变化，否则不变*/
+    .m-1b {
+        width:100%;
+        height: 50px;
+    }
+    
+    .u-1b {
+        display: flex;
+        flex-direction:column;
+        height: auto;
+        width: 100%;
+        right: 0;
+    }
+
+    .u-1c{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(41, 176, 120);
+    }
+
+    .f-1a {
+        display: none;
+        width: 100%;
+        line-height: 50px;
+        height: 50px;
+        text-align:center;
+        background-color: rgb(41, 176, 120);
+        border-top: 1px solid white;
+    }
+    
+    .m-1b:hover .f-1a{
+        display: block;
+    }
+    .m-1b:hover{
+        width:100%;
+        height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 410px) {
+/* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-1a{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: 80px;
+    }
+    .t-1a,.u-1a {
+        margin: 0 auto;
+    }
+}
+
+
+.background-2-one {
+    width: 100%;
+}
+
+
+.g-text1 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.g-three {
+    display: flex;
+    margin: 3% auto;
+    width: 80%;
+}
+.m-3a {
+    width: 20%;
+    height: 470px;
+    background-color: white;
+    border:1px solid rgba(140, 140, 140, 0.5);
+}
+
+.u-3a {
+    text-align: center;
+    font-size:22px;
+    width: 100%;
+    border-bottom:1.5px solid  rgba(140, 140, 140, 0.5);
+    margin-bottom: 20px;
+}
+.u-3b {
+    display: flex;
+    align-items: center;
+    height: 16px;
+    width: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30%;
+
+
+    color:green;
+    font-size:14px;
+}
+.f-3a {
+    width: 13px;
+    height: 13px;
+    border-radius:100%;
+    margin-bottom: 13px;
+    margin-right: 5px;
+    border:1px solid black;
+}
+
+.u-3b:hover .f-3a{
+    background-color:orange;
+    
+}
+.u-3b:hover .f-3b {
+    color: red;
+}
+
+
+.m-3b {
+    width: calc(80% - 30px);
+    background-color: white;
+    margin-left: 30px;
+    border: 1px solid rgba(140, 140, 140, 0.5);
+    font-size:14px;
+}
+
+.u-3c {
+    width: 100%;
+    height: 220px;
+    border-bottom:1px solid black;
+    padding-top: 40px;
+}
+
+.tudouwang {
+    float:left;
+    line-height: 150px;
+    width: 180px;
+    height: 80%;
+}
+.t-3a {
+    padding: 30px;
+}
+
+.t-3b {
+    padding:20px 30px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .u-3b {
+        width: 110px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 866px) {
+    .u-3b {
+        width: 110px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 772px) {
+    /* 媒体查询  如果浏览器宽度少于768则会变化，否则不变*/
+       .g-three {
+        display: flex;
+        flex-direction:column;
+       }
+       .m-3a{
+           width: 100%;
+           margin-bottom: 30px;
+       }
+       .m-3b {
+           width: 100%;
+           margin: 0;
+       }
+       .u-3b {
+           width: 110px;
+           margin:30px auto;  
+       }
+       .tudouwang {
+           width: 150px;
+           height: 150px;
+       }
+       .u-3c {
+           height: 220px;
+           padding-top: 0;
+       }
+}
+
+
+@media only screen and (max-width: 512px) {
+    /* 媒体查询  如果浏览器宽度少于768则会变化，否则不变*/
+    .u-3c {
+        height: 280px;
+    }
+    .tudouwang { 
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+@media only screen and (max-width: 378px) {
+    .u-3c {
+        height: 320px;
+    }
+    .tudouwang { 
+        width: 130px;
+        height: 130px;
+    }
+    
+}
+
+
+
+
+.g-seven {
+    width: 100;
+    height: auto;
+    background-color: rgb(41, 176, 120);
+    color: white;
+    padding-top:1.5%;
+}
+.m-7a {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:1%
+}
+.m-7d {
+    display: flex;
+}
+
+.m-7b {
+    text-align: center;
+    border: 2px solid rgb(50, 192, 134);
+}
+
+
+@media only screen and (max-width: 590px) {
+    /* 媒体查询  如果浏览器宽度少于590则会变化，否则不变*/
+    .m-7a {
+        display: flex;
+        flex-direction: column; 
+    }
+    .m-7c {
+        width: 80%;
+        margin: 5% auto;
+    }
+}

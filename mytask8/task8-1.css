@@ -1,0 +1,642 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body,
+html{
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+
+.g-noe {
+    width: 100%;
+    height: auto;
+    
+}
+.m-1a{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+}
+.t-1a {
+    font-size:14px;
+    color: rgb(41, 176, 120);
+}
+.u-1a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100px;
+    height: 100%;
+}
+.qq:hover{
+    width: 40px;
+    height: 40px;
+}
+.weibo:hover{
+    width: 40px;
+    height: 40px;
+}
+.vx:hover{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.m-1b {
+    position:relative;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 176, 120);
+}
+
+
+
+
+.u-1b {
+    position: absolute;
+    right: calc(10% - 34px);
+    /* (100-32)/2=34 用10%减去多余的宽度，让字体跟上面的图标对齐 */
+    display: flex;
+    
+}
+
+.u-1c {
+    display: none;
+    width: 100%;
+    height: 100px;
+}
+
+
+.f-1b {
+    /* 隐藏的按钮 */
+    position: absolute;
+    top: 5px;
+    right: 2vw;
+    width: 35px;
+    height: 40px;
+    border: 1px solid white;
+}
+.s-1a {
+    width: 25px;
+    height: 5px;
+    margin: 5px 4px;
+    background-color: white;
+}
+
+
+
+.f-1a {
+    text-align:center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+.f-1a:hover {
+    text-decoration:none;
+    border-bottom: 4px solid white;
+}
+
+
+.carousel-inner img {
+    /* 轮播图片100% */
+    width: 100%;
+    height: 100%;
+}
+
+.shuoming {
+    text-indent:24vw;
+    margin-bottom: 13%;
+    line-height: 2.5vw;
+}
+
+
+@media only screen and (max-width: 426px) {
+    /* 媒体查询  如果浏览器宽度少于426则会变化，否则不变*/
+    .m-1b {
+        width:100%;
+        height: 50px;
+    }
+    
+    .u-1b {
+        display: flex;
+        flex-direction:column;
+        height: auto;
+        width: 100%;
+        right: 0;
+    }
+
+    .u-1c{
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(41, 176, 120);
+    }
+
+    .f-1a {
+        display: none;
+        width: 100%;
+        line-height: 50px;
+        height: 50px;
+        text-align:center;
+        background-color: rgb(41, 176, 120);
+        border-top: 1px solid white;
+    }
+    
+    .m-1b:hover .f-1a{
+        display: block;
+    }
+    .m-1b:hover{
+        width:100%;
+        height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 410px) {
+/* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-1a{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: 80px;
+    }
+    .t-1a,.u-1a {
+        margin: 0 auto;
+    }
+
+    .shuoming {
+        text-indent:5vw;
+        /* 字体缩进 */
+        margin-bottom: 0%;
+        line-height: 5vw;
+    }
+}
+
+
+
+.g-two {
+    display: flex;
+    margin: 10vw 10vw;
+    width: 80vw;
+}
+
+.m-2a {
+    display: flex;
+    width: 50%;
+    margin-right: 0;
+}
+.m-2b {
+    display: flex;
+    width: 50%;
+    margin-left: 0;
+}
+.u-2a {
+    width: 42.5%;
+    margin-right: 5%;
+    
+}
+.u-2b {
+    width: 42.5%;
+    margin: 0 5%;
+}
+.u-2c {
+    width: 42.5%;
+    margin: 0 5%;
+}
+
+.u-2d {
+    margin-top: 15%;
+    margin-left:5%;
+    width: 42.5%;
+}
+
+.rocket,
+.archive,
+.Shape {
+    width: 50px;
+    height: 55px;
+    margin: 1vw calc(50% - 25px);
+}
+
+.t-2a {
+    text-align:center;
+}
+.t-2b {
+    color: rgb(41, 176, 120);
+}
+.t-2c {
+    color: rgb(153, 153, 153);
+}
+
+
+@media only screen and (max-width: 914px) {
+    /* 媒体查询  如果浏览器宽度少于914则会变化，否则不变*/
+    .g-two {
+            display: flex;
+            flex-direction:column;
+            margin: 10vw 18vw;
+            width: 64vw;
+    }
+    .m-2a {
+        margin: 0 auto;
+        width:64vw;
+    }
+    .m-2b {
+        margin: 15% auto;
+        width:64vw;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .m-2a {
+        display: flex;
+        flex-direction:column;
+        margin: 0 auto;
+        width:64vw;
+    }
+    .m-2b {
+        display: flex;
+        flex-direction:column;
+        margin: 15% auto;
+        width:64vw;
+    }
+    .u-2a,
+    .u-2b,
+    .u-2c,
+    .u-2d {
+        text-align:center;
+        margin: 5% auto;
+        width: 100%;
+    }
+
+}
+
+.g-text {
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+}
+
+
+
+
+.g-three {
+    width: 80%;
+    height: auto;
+    margin: 5% 10vw;
+}
+.g-3a,
+.g-3b {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 40px;
+}
+.m-3a,
+.m-3a2,
+.m-3a3,
+.m-3a4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50px;
+    width: 47%;
+}
+.m-3b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 43%;
+}
+.u-3a {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius:100%;
+    border: 1px solid rgba(153, 153, 153, 0.2);
+}
+.t-3a {
+    line-height: 50px;
+    text-align: center;
+    color: rgb(41, 176, 120);
+}
+.t-3b{
+    width: 70%;
+    height: 20px;
+    font-size: 12px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    
+}
+.arrow1 {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 914px) {
+    /* 媒体查询  如果浏览器宽度少于914则会变化，否则不变*/
+    .g-3a,
+    .g-3b{
+        display: flex;
+        flex-direction:column;  
+    }
+    .g-3b {
+        margin-top: -40px;
+    }
+
+    .arrow,
+    .arrow1 {
+        display: none;
+    }
+    .m-3a,
+    .m-3a2,
+    .m-3a3,
+    .m-3a4{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 570px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .m-3a,
+    .m-3a2,
+    .m-3a3,
+    .m-3a4{
+        display: flex;
+        flex-direction:column; 
+    }
+
+    .m-3a,
+    .m-3a2,
+    .m-3a3,
+    .m-3a4{
+        margin-top: 80px;
+    }
+    .m-3b{
+        width: 100%; 
+        margin-top: 20px;
+    }
+    .t-3b {
+        font-size:14px;
+        
+    }
+}
+
+
+
+.g-text2 {
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+}
+
+
+
+
+
+.g-four {
+    width: 80%;
+    height: auto;
+    margin: 5% 10vw;
+}
+.m-4a {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    height: auto;
+}
+.m-4b {
+    display: flex;
+    justify-content: space-between; 
+    width: 48%;
+    height: auto;
+}
+.u-4a,
+.u-4b {
+    text-align: center;
+    width: 46%;
+    height: auto;
+    background-color: rgb(255, 255, 255) 
+}
+.avatar{
+    margin: 7% 0;
+}
+.t-4a{
+    font-size: 14px;
+    padding: 8%;
+    color: rgb(153, 153, 153);
+}
+
+
+.m-4g {
+    display: flex;
+    width: 76px;
+    height: 19px;
+    margin: 7% auto;
+}
+.f-4a {
+    width: 13px;
+    height: 13px;
+    margin: 3px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 100%;
+}
+.f-4a:hover {
+    background-color: rgb(41, 176, 120);
+}
+
+
+@media only screen and (max-width: 914px) {
+    /* 媒体查询  如果浏览器宽度少于914则会变化，否则不变*/
+    .m-4a {
+        display: flex;
+        flex-direction:column; 
+    }
+    .m-4b {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .m-4b{
+        display: flex;
+        flex-direction:column; 
+    }
+    .u-4a,
+    .u-4b {
+        width: 100%;
+    }
+    .u-4a {
+        margin-bottom: 8%;
+    }
+    .m-4g {
+        display: none;
+    }
+    .g-text2 {
+        margin-top: 25%;
+    }
+}
+
+
+
+.g-taxt3 {
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+}
+
+
+.g-five {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    height: auto;
+    margin: 5% 10vw;
+    
+}
+
+.m-5a {
+    display: flex;
+    align-items: center;
+    width: calc(20% - 4px);
+    height: 200px;
+    background-color: white;
+}
+
+.alibaba{
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+}
+.m-5a:hover{
+    z-index: 1;
+    box-shadow: 0 0 20px rgb(153, 153, 153);
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .g-five{
+        display: flex;
+        flex-direction:column; 
+    }
+    .m-5a {
+        width: 50%;
+        margin: 1% auto;
+    }
+}
+@media only screen and (max-width: 450px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    
+    .m-5a {
+        width: 80%;
+    }
+}
+
+
+
+.g-six {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.m-6a {
+    text-align: center;
+}
+.m-6b {
+    display: flex;
+    justify-content: space-between; 
+    margin: 2% auto;
+    width: 80%;
+}
+.m-6c {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+}
+.t-6a {
+    margin: 0 1%;
+    color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .m-6b {
+        display: flex;
+        flex-direction:column; 
+    }
+    .m-6c {
+        width: 80%;
+        margin: 1% auto;
+    }
+}
+@media only screen and (max-width: 485px) {
+    /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
+    .m-6d {
+        display: flex;
+        justify-content: space-between;
+    }
+    .m-6b {
+        width: 50%;
+    }
+    .m-6c{
+        display: flex;
+        flex-direction:column; 
+        text-align: center;
+    }
+}
+
+.g-seven {
+    width: 100;
+    height: auto;
+    background-color: rgb(41, 176, 120);
+    color: white;
+    padding-top:1.5%;
+}
+.m-7a {
+    display: flex;
+    justify-content:space-around;
+    padding-bottom:1%
+}
+.m-7d {
+    display: flex;
+}
+
+.m-7b {
+    text-align: center;
+    border: 2px solid rgb(50, 192, 134);
+}
+
+
+@media only screen and (max-width: 590px) {
+    /* 媒体查询  如果浏览器宽度少于590则会变化，否则不变*/
+    .m-7a {
+        display: flex;
+        flex-direction:column; 
+    }
+    .m-7c {
+        width: 80%;
+        margin: 5% auto;
+    }
+}
