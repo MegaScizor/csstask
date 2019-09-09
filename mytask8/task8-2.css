@@ -341,7 +341,9 @@ html{
     text-align: center;
     border: 2px solid rgb(50, 192, 134);
 }
-
+.t-7a:hover {
+    text-decoration:underline;
+}
 
 @media only screen and (max-width: 590px) {
     /* 媒体查询  如果浏览器宽度少于590则会变化，否则不变*/
