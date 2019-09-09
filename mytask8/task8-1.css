@@ -580,7 +580,10 @@ html{
     color: #000;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+
+@media only screen and (max-width: 900px) {
     /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
     .m-6b {
         display: flex;
@@ -591,7 +594,7 @@ html{
         margin: 1% auto;
     }
 }
-@media only screen and (max-width: 485px) {
+@media only screen and (max-width: 538px) {
     /* 媒体查询  如果浏览器宽度少于570则会变化，否则不变*/
     .m-6d {
         display: flex;
