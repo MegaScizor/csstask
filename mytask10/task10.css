@@ -1,0 +1,624 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.g-one {
+    width: 100%;
+    height: 40px;
+    background-color: #1d7ad9;
+}
+.m-1a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    color: white;
+}
+.u-1a {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 100%;
+}
+.t-1a {
+    text-align: center;
+    width: 80px;
+}
+.t-1a:hover {
+    background-color: white;
+    color: black;
+    width: 104px;
+    height: 40px;
+    line-height: 40px;
+}
+
+@media only screen and (max-width: 344px) {
+    .kefu {
+        display: none;
+    }
+    .u-1a {
+        margin-left: calc(100% - 160px);
+    }
+}
+
+
+
+
+.g-two {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #f9f9f9;
+}
+.m-2a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    line-height: 47px;
+    width: 526px;
+    height: 100%;
+}
+.t-2a {
+    width: 66px;
+}
+.t-2b,
+.t-2d {
+    width: 98px;
+}
+.t-2c {
+    width: 83px;
+}
+.t-2a,
+.t-2b,
+.t-2c,
+.t-2d {
+    height: 47px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.t-2a:hover {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+.t-2b:hover {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+.t-2c:hover {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+.t-2d:hover {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+
+/* 一下为隐藏的按钮 */
+.u-2a {
+    display: none;
+    width: 100%;
+}
+.f-2a {
+    /* 隐藏的按钮 */
+    position: absolute;
+    top: 5px;
+    right: 5%;
+    width: 35px;
+    height: 40px;
+    border: 1px solid white;
+    background: #1d7ad9;
+}
+.s-2a {
+    width: 25px;
+    height: 5px;
+    margin: 6px 5px;
+    background-color: white;
+}
+
+@media only screen and (max-width: 605px) {
+    .g-two {
+        width: 100%;
+        height: 47px;
+    }
+    .u-2a {
+        display: block;
+        width: 100%;
+        height: 47px;
+    }
+
+    .m-2a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        right: 0;
+        height: auto;
+    }
+    .t-2a,
+    .t-2b,
+    .t-2c,
+    .t-2d {
+        width: 100%;
+        display: none;
+    }
+    
+    .g-two:hover .t-2a{
+        display: block;
+    }
+    .g-two:hover .t-2b{
+        display: block;
+    }
+    .g-two:hover .t-2c{
+        display: block;
+    }
+    .g-two:hover .t-2d{
+        display: block;
+    }
+    .g-two:hover {
+        height: 235px;
+    }
+    
+}
+
+
+
+.g-three {
+    position: relative;
+    width: 80%;
+    height: 66px;
+    margin-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 52px;
+}
+
+.m-3a {
+    display: flex;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 66px;
+}
+.m-3b {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.m-3c {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    color: #ccc;
+}
+.u-3a {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: #ccc;
+    margin-top: 9.5px;
+    margin-bottom: 34px;
+}
+.f-3a {
+    position: absolute;
+    right: calc(50% - 12px);
+    top: -9.5px;
+    text-align: center;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #ccc;
+    color: #fff;
+}
+.m-3c:hover {
+    color: #ff7f02;
+}
+.m-3c:hover .u-3a{
+    background-color: #ff7f02;
+}
+.m-3c:hover .f-3a{
+    background-color: #ff7f02;
+}
+
+@media only screen and (max-width: 800px) {
+    .g-three {
+        height: 166px;
+    }
+    .m-3a {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .m-3b {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .g-three {
+        height: 332px;
+    }
+    .m-3b {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .m-3c {
+        width: 100%;
+        margin-bottom: 200px;
+    }
+    
+}
+
+
+
+.g-t1 {
+    width: 80%;
+    padding-left: 5px;
+    margin-left: 10%;
+    margin-bottom: 16px;
+    border-left: 4px solid #1d7ad9;
+    font-size: 22px;
+}
+
+
+
+.g-four {
+    width: 80%;
+    height: 126px;
+    margin: 0 auto;
+}
+.m-4a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #f3f3f3;
+    color: #1d7ad9;
+    font-size: 18px;
+    border: 1px solid #f3f3f3;
+}
+.box,
+.ruler {
+    margin-left: 18px;
+    margin-right: 10px;
+    
+}
+.m-4b {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 86px;
+    border: 1px solid #e7e7e7;
+}
+.u-4a {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    margin-left: 46px;
+}
+.u-4b{
+    display: flex;
+    font-size: 18px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.f-4a{
+    display: none;
+    /* 将单选框默认样式清除 */
+}
+.f-4b{
+    position: relative;
+    /* 设置相对定位给中间的小白圆圈 */
+    display: inline-block;
+    /* 设置为内联块级元素 */
+    width:18px;
+    height:18px;
+    border:1px solid #e7e7e7;
+    border-radius:100%;
+    margin-right:10px;
+    margin-top: 4px;
+    /* 重新设置没点击时的单选圆点状态 */
+}
+.f-4a:checked + .f-4b::after{
+    content:"";
+    display: inline-block;
+    width:19px;
+    height:19px;
+    background-color: #1d7ad9;
+    border-radius:100%;
+    margin-bottom: 4px;
+    /* 设置点击时的状态 */
+}
+.f-4a:checked + .f-4b{
+    border: none;
+}
+.f-4a:checked + .f-4b::before{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    content:"";
+    width: 5px;
+    height: 5px;
+    border-radius:100%;
+    background-color: #fff;
+    /* 设置点击之前位于最前方的小白色圆点，通过定位来到圆圈中心 */
+}
+
+.u-4c,
+.u-5c {
+    text-align-last: center;
+    /* 下拉框字体居中 */
+    width: 127px;
+    height: 37px;
+    margin-right: 18px;
+    color: #999;
+}
+select { 
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*将默认的select选择框样式清除*/
+
+    background: url("triangle.png") no-repeat scroll right center transparent;
+    /*在选择框的最右侧中间显示小箭头图片*/
+
+    padding-right: 24px;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖 ,等于图片宽度*/
+}
+  
+  select::-ms-expand { 
+      display: none;
+      /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+}
+
+
+@media only screen and (max-width: 720px) {
+    .g-four {
+
+    }
+    .u-4a {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .u-4a {
+        margin-left: 16px;
+    }
+}
+
+
+
+
+.g-five {
+    width: 80%;
+    height: 186px;
+    margin: 0 auto;
+}
+.m-5b {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(100% - 40px);
+    border: 1px solid #e7e7e7;
+}
+.m-5c {
+    font-size: 18px;
+    width: 68%;
+    margin-top: 10px;
+    
+}
+.u-5c {
+    margin-top: 20px;
+}
+.m-5d,
+.m-5e {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+
+.u-5a {
+    width: 70px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1060px) {
+    .g-five {
+        height: 230px;
+    }
+    .m-5c {
+        display: flex;
+        height: 90%;
+    }
+    
+    .m-5d,
+    .m-5e {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-top: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .g-five {
+        height: 400px;
+    }
+    .m-5c {
+        display: flex;
+        flex-direction: column;
+    }
+    .m-5d,
+    .m-5e {
+        width: 150px;
+        height: 90%;
+    }
+    .m-5d {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .m-5d,
+    .m-5e {
+        margin-left: 16px;
+    }
+}
+
+
+
+
+
+
+.g-six {
+    width: 80%;
+    height: 186px;
+    margin: 0 auto;
+}
+
+.m-6a {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    width: 68%;
+    margin-left: 46px;
+    margin-top: 20px;
+}
+.u-6a {
+    width: 150px;
+}
+
+@media only screen and (max-width: 500px) {
+    .m-6a {
+        margin-left: 16px;
+    }
+}
+
+
+
+
+.g-seven {
+    width: 80%;
+    height: 330px;
+    margin: 0 auto;
+}
+.m-7a {
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+button{
+    width: 180px;
+    height: 46px;
+    background-color: #e15053;
+    margin: 142px calc(50% - 90px);
+    font-size: 24px;
+    color:#fff;
+    border: none;
+}
+
+
+
+.g-eight {
+    width: 100%;
+    height: 206px;
+    background-color: #f9f9f9;
+    margin-top: 54px;
+}
+.m-8a {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    color: #999;
+}
+
+.t-8b {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    /* 超出部分自动换行 */
+    font-size: 14px;
+}
+.t-8c {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.t-8a,
+.t-8b,
+.t-8c {
+    height: 100px;
+    height: 100px;
+    width: 33.3%;
+    margin: 5px 0;
+}
+
+.weixin {
+    width: 92px;
+    height: 92px;
+    margin-left: 14px;
+}
+.t-8d {
+    margin-bottom: 16px;
+}
+@media only screen and (max-width: 1005px) {
+    .g-eight {
+        height: 250px;
+    }
+    .m-8a {
+        display: flex;
+        flex-direction: column;
+    }
+    .t-8a,
+    .t-8b,
+    .t-8c {
+        width: 280px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+
+
+
+
+.nine {
+    width: 100%;
+    height: 34px;
+    background: #1d7ad9;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+}
+.m-9a {
+    display: flex;
+    justify-content: space-between;
+    word-break: break-all;
+    width: 700px;
+    height: 14px;
+    margin: 10px auto;
+}
+@media only screen and (max-width: 768px) {
+    .nine {
+        height: 70px;
+    }
+    .m-9a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

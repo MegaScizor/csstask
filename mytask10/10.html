@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="task10.css">
+    <title>包装</title>
+</head>
+
+
+<body>
+    <div class= "g-one">
+        <div class= "m-1a">
+                <p class= "kefu">客服热线：010-594-78634</p>
+                <div class= "u-1a">
+                    <p class= "t-1a">登录</p>
+                    <p class= "t-1a">注册</p>
+                </div>
+        </div>
+    </div>
+
+
+    <div class ="g-two">
+        <div class= "m-2a">
+            <div class= "u-2a"> 
+                <div class= "f-2a">
+                    <div class="s-2a"></div>
+                    <div class="s-2a"></div>
+                    <div class="s-2a"></div>
+                </div>
+            </div>
+            <p class= "t-2a">首页</p>
+            <p class= "t-2b">在线定制</p>
+            <p class= "t-2c">标准箱</p>
+            <p class= "t-2d">品质保障</p>
+        </div>
+    </div>
+    
+
+    <div class= "g-three">
+        <div class= "m-3a">
+            <div class= "m-3b">    
+                <div class= "m-3c">
+                    <div class= "u-3a">
+                        <div class= "f-3a">1</div>
+                    </div>
+                    <p>1.定制纸箱</p>
+                </div>
+            
+                <div class= "m-3c">
+                    <div class= "u-3a">
+                        <div class= "f-3a">2</div>
+                    </div>
+                    <p>2.选择数量</p>
+                </div>
+            </div>
+            <div class= "m-3b"> 
+                <div class= "m-3c">
+                    <div class= "u-3a">
+                        <div class= "f-3a">3</div>
+                    </div>
+                    <p>3.上传附件</p>
+                </div>              
+            
+                <div class= "m-3c">
+                    <div class= "u-3a">
+                        <div class= "f-3a">4</div>
+                    </div>
+                    <p>4.确认下单</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class= "g-t1">请您按照以下步骤来定制您的纸箱</p>
+
+    <div class="g-four">
+        <div class="m-4a">
+            <img class="box" src="box.png">选择箱型
+        </div>
+        <div class="m-4b">
+            <form class= "u-4a">
+                <label class= "u-4b">
+                    <input type="radio" value="1" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>对口箱
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="2" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>飞机盒
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="3" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>天地盖
+                </label>
+            </form>
+
+            <select class="u-4c">
+                <option class= "asd" value="1">查看详情</option>
+                <option value="2">孙悟空</option>
+                <option value="3">二郎神</option>
+                <option value="4">牛魔王</option>
+            </select>
+        </div>
+    </div>
+
+
+    <div class="g-five">
+        <div class="m-4a">
+            <img class="ruler" src="ruler.png">确定尺寸
+        </div>
+        <div class="m-5b">
+            <div class= "m-5c">
+                <div class= "m-5d">
+                    <label class= "u-4b">
+                        <input type="radio" value="1" name="demo-radio" class="f-4a">
+                        <span class="f-4b"></span>外径
+                    </label>
+                    
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            长:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            宽:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            高:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                </div>
+
+
+                <div class= "m-5e">
+                    <label class= "u-4b">
+                        <input type="radio" value="1" name="demo-radio" class="f-4a">
+                        <span class="f-4b"></span>内径
+                    </label>
+                    
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            长:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            宽:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                    <form method="get" action="save.php" name="length">
+                        <!-- 上传方式为get -->
+                            高:<input
+                            class= "u-5a" 
+                            type="text"
+                            name="length"
+                            maxlength="5" 
+                            oninput="value=value.replace(/[^\d]/g,'')"
+                            required/>mm
+                    </form>
+                </div>               
+            </div>
+
+            <select class="u-5c">
+                <option class= "asd" value="1">查看详情</option>
+                <option value="2">孙悟空</option>
+                <option value="3">二郎神</option>
+                <option value="4">牛魔王</option>
+            </select>
+        </div>
+    </div>
+
+    <div class= "g-six">
+        <div class="m-4a">
+            <img class="box" src="scissors.png">选择材质
+        </div>
+        <div class="m-5b">
+            <form class= "m-6a">
+                <label class= "u-4b">
+                    <input type="radio" value="1" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>三层A瓦优质
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="2" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>三层A瓦优质
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="3" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>三层A瓦优质
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="3" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>三层A瓦优质
+                </label>
+                <label class= "u-4b">
+                    <input type="radio" value="3" name="demo-radio" class="f-4a">
+                    <span class="f-4b"></span>三层A瓦优质
+                </label>
+                <div class= "u-6a"></div>
+            </form>
+
+            <select class="u-5c">
+                <option class= "asd" value="1">查看详情</option>
+                <option value="2">孙悟空</option>
+                <option value="3">二郎神</option>
+                <option value="4">牛魔王</option>
+            </select>
+        </div>
+    </div>
+
+    <div class= "g-seven">
+        <div class= "m-7a">
+            <button>下一步</button>
+        </div>
+    </div>
+
+
+    <div class= "g-eight">
+        <div class= "m-8a">
+            <div class= "t-8a">51包装——纸箱包装首选服务平台</div>
+            <div class= "t-8b">
+                <a>关于我们</a>
+                <a>配送流程</a>
+                <a>联系我们</a>
+                <a>下单指南</a>
+                <a>媒体介绍</a>
+                <a></a>
+            </div>
+            <div class= "t-8c">
+                <div>
+                    <p class= "t-8d">TEL：400-0000-000</p>
+                    <p class= "t-8d">企业QQ：123456789</p>
+                    <p class= "t-8d">微信号：shangtian</p>
+                </div>
+                <img class="weixin" src="weixin.png">
+            </div>
+        </div>
+    </div>
+
+    <div class= "nine">
+        <div class= "m-9a">
+            <p>北京五一包装科技有限公司Copyright©2015</p>
+            <p>51baozhuang.com015 All rights reserved.</p>
+            <p>京icp备99999999-1</p>
+        </div>
+    </div>
+</body>
+</html>
