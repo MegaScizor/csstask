@@ -403,7 +403,8 @@ select {
     height: 186px;
     margin: 0 auto;
 }
-.m-5b {
+.m-5b,
+.m-6b {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -497,6 +498,13 @@ select {
 .u-6a {
     width: 150px;
 }
+
+@media only screen and (max-width: 602px) {
+    .m-6b {
+        height: auto;
+    }
+}
+
 
 @media only screen and (max-width: 500px) {
     .m-6a {
