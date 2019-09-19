@@ -433,7 +433,7 @@ select {
     height: 30px;
 }
 
-@media only screen and (max-width: 1060px) {
+@media only screen and (max-width: 1102px) {
     .g-five {
         height: 230px;
     }
@@ -598,7 +598,6 @@ button{
         display: flex;
         justify-content: flex-start;
     }
-
 }
 
 
