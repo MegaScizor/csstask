@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task13-1</title>
+    <link rel="stylesheet" href="task13-1.css">
+</head>
+<body>
+    <!-- 创建一个与下面关联的按钮标签 -->
+    <input type='checkbox' id='anniu'>
+    <!-- aside标签可以用作文章的侧栏 -->
+    <aside>
+        <div class="sidebar">
+            <img  class="horn" src="horn.png">公告
+            <img  class="arrow" src="arrow.png">
+        </div>
+        <div class="sidebar">
+            <img  class="horn" src="gear.png">设置
+            <img  class="arrow" src="arrow.png">
+        </div>
+        <div class="sidebar">
+            <img  class="horn" src="ask.png">帮助
+            <img  class="arrow" src="arrow.png">
+        </div>
+        <div class="sidebar">
+            <img  class="horn" src="about.png">关于
+            <img  class="arrow" src="arrow.png">
+        </div>
+    </aside>
+
+    <!-- 设置侧栏出现时跟着往右边边滑动的模块 -->
+    <div id='wrap'>
+
+        <!--for 属性规定 label 与哪个表单元素绑定，即将这个控制侧边栏进出的按钮与checkbox绑定-->
+        <header>
+            <!-- 第一个是顶部的按钮，因为不想用画DIV跟图片，就用文字代替三个横杠 -->
+            <label for='anniu'>≡</label>
+        </header>
+        <!-- 因为这边是要点击往右边偏移的，所以下面是放右边的整个页面 -->
+        
+        <div id="g-one">
+            <p class="t-1a">上次游戏：捉鬼猜词版</p>
+            <div class="m-1a">
+                <div class="s-1a"></div>
+                <div class="s-1b"></div>
+            </div>
+        </div>
+
+        <div id="g-two">
+                <p class="m-2a">捉鬼游戏</p>
+                <a href="13-2.html"><div class="m-2b">简化版</div></a>
+                <p class ="m-2c">有2333个用户正在玩此游戏</p>
+                <div class="m-2b">猜词版</div>
+                <p class ="m-2c">有2333个用户正在玩此游戏</p>
+                <div class="m-2b">白痴版</div>
+                <p class ="m-2c">有2333个用户正在玩此游戏</p>
+                <div class="m-2d">
+                    <a><div class="f-2a"></div></a>
+                    <div class="f-2a"></div>
+                    <div class="f-2a"></div>
+                    <div class="f-2a"></div>
+                </div>
+                <div class="m-2e"></div>
+        </div>
+    </div>
+</body>
+</html>

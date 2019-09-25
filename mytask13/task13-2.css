@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: rgb(41, 189, 224);  
+}
+
+.g {
+    background-color: rgb(41, 189, 224);  
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+header {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    color:white;
+    font-size:20px;
+}
+.m-ha {
+    margin-left: 20px;
+    width: 23px;
+    height: 24px;
+    border: 2px solid white;
+}
+.u-ha {
+    margin: 3.5px 2px;
+    width: 19px;
+    height: 3px;
+    background-color:white;
+}
+.m-hb{
+    margin-right: 30px;
+}
+.t-hb {
+    position: absolute;
+    /* 绝对定位 */
+    width: 2px;
+    /* 宽 */
+    height: 30px;
+    /* 高 */
+    background: white;
+    /* 背景色 */
+    -webkit-transform: rotate(45deg);
+    /* 表示谷歌chrome跟safari私有属性 兼容性*/
+    -moz-transform: rotate(45deg);
+    /* 表示火狐firefox私有属性 */
+    -o-transform: rotate(45deg);
+    /* opera浏览器 */
+    -ms-transform: rotate(45deg);
+    /* 表示IE浏览器私有属性 */
+    transform: rotate(45deg);
+    /* 旋转45度 */
+    display: inline-block;
+    /* 显示：行内块元素 */
+}
+.t-hc {
+    position:relative;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 30px;
+    background: white;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.g-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(185, 233, 245);
+}
+.m-1a {
+    margin-left: 45px;
+}
+.audio1 {
+    position: fixed;
+    z-index: 10;
+    position:absolute;
+    right: -25px;
+    width: 90px;
+    height: 35px;
+    opacity: 0;
+    /* 不透明度 */
+}
+.play {
+    height: 35px;
+    margin-right: 20px;
+}
+
+.g-two{
+    margin-left: 50px;
+}
+.m-2a {
+    width: 0;
+    height: 0;
+    border-top: 10px solid;
+    border-right: 5px solid;
+    border-bottom:10px solid;
+    border-left: 5px solid;
+    border-color:rgb(185, 233, 245) transparent transparent transparent;
+}
+.m-2b {
+    font-size:14px;
+    color: white;
+}
+
+.top {
+    width: 100%;
+    height: 141px;
+}
+ 
+
+
+.g-three {
+    width: 100%;
+    height:auto;
+
+    
+}
+
+.m-3a{
+    display: flex;
+}
+
+
+.u-3a {
+    text-align:center;
+    width: 17.8vw;
+    height: 17.8vw;
+    margin: 6.6vw;
+    border:1vw solid white;
+}
+.t-3a{
+    line-height: 13.35vw;
+    width: 100%;
+    height: 75%;
+    background-color: rgb(245, 201, 123);
+}
+.t-3b {
+    line-height: 4.5vw;
+    width: 100%;
+    height: 25%;
+    color: white;
+    background-color: rgb(131, 176, 154);
+}
+
+.tubiao{
+    visibility: hidden;
+    width: 100%;
+    height: 25%;
+    margin-top: 3vw;
+}
+
+.u-3a:hover .tubiao{
+    visibility: visible;
+    /* 鼠标粗碰到的时候设置此元素将显示为块级元素，此元素前后会带有换行符。 */
+}
+a {
+    text-decoration: none;
+    /* 去掉下划线 */
+    color:#000;
+}
+
+
+.four {
+    position: fixed;
+    bottom:0;
+    width: 86.8%;
+    height: 120px;
+    margin-left: 6.6%;
+    margin-right: 6.6%;
+    border-top:0.5vw solid white;
+    background-color: rgb(41, 189, 224);
+
+}
+.m-4a {
+    outline:none;
+    border: none;
+    color: white;
+    margin: 22.5px 10%;
+    width: 80%;
+    height: 75px;
+    font-size:25px;
+    background-color: rgb(251, 180, 53);
+}
+
+
+
+
+.bottom{
+    
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(41, 189, 224);
+}

@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f0f0f0;
+
+    // 给页面设置一个宽度，然后超出部分隐藏，不会出现滚动条。
+    width: 100vw;
+    overflow: hidden;
+}
+
+$bg-color: #29bde0;
+$total-width: 100%;
+$dark-grey: #9a9a9a;
+$gray: #ccc;
+
+#anniu{
+    display: none;
+}
+#anniu:checked + aside {
+    /*为被选中的sidemenu后的aside设置属性（紧邻）*/
+    left: 0;
+    /*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+#anniu:checked ~ #wrap {
+    /*点击之后页面的位置*/
+    margin-left: 50vw;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -50vw;
+    width: 50vw;
+    height: 100%;
+    transition: 0.2s ease-out;
+    /*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+
+    .sidebar {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: $total-width;
+        height: 40px;
+        border-bottom: 1px solid $dark-grey;
+        color: $bg-color;
+        background-color: #fff;
+        .horn,
+        .arrow {
+            width: 25px;
+            height: 25px;
+        }
+        .arrow {
+            position: absolute;
+            top:7.5px;
+            right: 20px;
+        }
+    }
+}
+
+#wrap {
+    // 设置最小宽度为100%让页面造成挤压
+    min-width: $total-width;
+    transition: 0.2s ease-out;
+
+    
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+label {
+    color: white;
+    /* 鼠标变成手指 */
+    cursor: pointer;
+    display: block;
+    /* 字体 */
+    font-family: Courier New;
+    font-size: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+label:hover {
+    background: orange;
+}
+header {
+    width: $total-width;
+    height: 60px;
+    background-color: $bg-color; 
+}
+
+#g-one {
+    position: relative;
+    width: 90%;
+    height: 60px;
+    border:1px solid $dark-grey;
+    margin: 20px auto;
+    background-color:white;
+    color: $gray;
+
+    .t-1a {
+        text-align:center;
+        font-size:18px;
+        line-height: 60px;
+    }
+    .m-1a {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        right: 0;
+        top: 15px;
+    }
+    .s-1a {
+        position:relative;
+        width: 0;
+        height: 0;
+        border:15px solid;
+        border-color:transparent transparent transparent $dark-grey;
+    }
+    .s-1b {
+        position: absolute;
+        top: 0;
+        left: -5px;
+        width: 0;
+        height: 0;
+        border:15px solid;
+        border-color:transparent transparent transparent white;
+    }
+}
+
+#g-two {
+    position:relative;
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    background-color:white;
+    border: 1px solid $gray;
+}
+.m-2a {
+    text-align:center;
+    width: $total-width;
+    height: 70px;
+    font-size:23px;
+    line-height: 70px;
+    border-bottom:1.5px solid rgb(251, 180, 53);
+    color: rgb(251, 180, 53);
+}
+.m-2b {
+    outline:none;
+    /* 去掉蓝框 */
+    border: none;
+    /* 去掉边框 */
+    text-align:center;
+    line-height: 70px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: calc(100%-100px);
+    height: 70px;
+    color: white;
+    background-color: $bg-color;  
+}
+a {
+    text-decoration: none;
+}
+.m-2c {
+    text-align:center;
+    margin-top: 15px;
+    color: rgb(154, 154, 154);
+}
+.m-2d {
+    width: 76px;
+    height: 19px;
+    display: flex;
+    margin: 10px auto;
+}
+.f-2a {
+    width: 13px;
+    height: 13px;
+    margin: 3px;
+    background-color: $gray;
+    border-radius: 100%;
+    
+}
+.f-2a:hover {
+    background-color: $bg-color;
+}
+
+.m-2e {
+    position:absolute;
+    right: -14px;
+    top: 222.5px;
+    z-index: 9999;
+    width: 0;
+    height: 0;
+    border:20px solid;
+    border-color:transparent transparent transparent rgb(251, 180, 53);
+}
