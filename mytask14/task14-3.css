@@ -1,0 +1,234 @@
+.g-text1 {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.g-nav {
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    border-top:1px solid rgba(153, 153, 153, 0.4);
+    border-bottom:1px solid rgba(153, 153, 153, 0.2);
+    font-size: 14px;
+ }
+.t-nb {
+    float: left;
+    margin-top: 10px;
+}
+.t-na {
+    float: left;
+    /* 去掉下划线 */
+    color:black;
+    margin-top: 10px;
+    margin-right:15px; 
+}
+.t-na:hover {
+    background-color:#29B078;
+    text-decoration: none;
+    color:black;
+}
+
+@media only screen and (max-width: 549px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .g-nav {
+        height: 80px;
+    }
+}
+
+
+
+
+
+.t-3a {
+    margin-top: 40px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+
+
+.g-three,
+.g-four,
+.g-five {
+    display: flex;
+    flex-wrap:wrap;
+    /* 超出部分自动换行 */
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.m-3a{
+    width: 32%;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px rgb(153, 153, 153);
+}  
+.null {
+    width: 32%;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-3a,
+    .null{
+        width: 33%;
+    }
+}
+@media only screen and (max-width: 1264px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-3a,
+    .null{
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-3a {
+        width: 100%;
+    }
+}
+
+
+.t-3b {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    animation: tiaodong 0.5s;
+    /* 动画名称 时间  */
+}
+@keyframes tiaodong{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    } 
+}
+
+
+
+.t-3c {
+    text-align: center;
+    padding-top: 70px;
+}
+.t-3d {
+    margin: 0 40px;
+}
+
+.m-3b {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border:1px solid #f2f2f2;
+}
+.m-3a:hover .t-3b{
+    display: block;
+    z-index: 9998;
+    position:absolute;
+}
+.m-3a2:hover .t-3b{
+    display: block;
+    z-index: 9998;
+    position:absolute;
+}
+.m-3a3:hover .t-3b{
+    display: block;
+    z-index: 9998;
+    position:absolute;
+}
+
+
+
+.u-3a{
+    display: flex;
+}
+.touxiang {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.t-3e {
+    word-break: break-all;
+    /* 超出宽度的所有字符自动换行 */
+    width: calc(100% - 150px);
+    height: auto;
+    margin: 10px;
+}
+.t-3f {
+    text-align: center;
+}
+.t-3g {
+    font-size: 12px;
+}
+.u-3b {
+    display: flex;
+    height:auto;
+}
+.t-3h {
+    width: 50%;
+    border:1px solid #f2f2f2;
+    font-size: 14px;
+    line-height:28px;
+    margin: 0;
+    padding-left:10px;
+    padding-right:10px;
+}
+.xing {
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+span{
+    color: red;
+}
+
+.u-3c {
+    display: flex;
+    font-size: 14px;
+    height: 105px;
+
+}
+.t-3i {
+    text-align: center;
+    width: 25%;
+    border:1px solid #f2f2f2;
+    height: 90px;
+    line-height: 105px;
+}
+
+.t-3l {
+    display: flex;
+    justify-content: space-between;
+    border:1px solid #f2f2f2;
+    height: 35px;
+}
+.t-3k {
+    width: 75%;
+}
+
+
+.u-3d,
+.u-3e {
+    padding-left: 10px;
+    line-height: 28px;
+    width: 100%;
+    border:1px solid #f2f2f2;
+    margin: 0;
+    font-size:14px;
+}
+.u-3e {
+    color: #ccc;
+    padding-left: 10px;
+}

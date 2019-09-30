@@ -1,0 +1,210 @@
+.bkimg{
+    /* 轮播图片100% */
+    width: 100%;
+    height: 100%;
+}
+.shuoming {
+    text-indent:24vw;
+    margin-bottom: 13%;
+    line-height: 2.5vw;
+}
+@media only screen and (max-width: 410px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .shuoming {
+        text-indent:5vw;
+        /* 字体缩进 */
+        margin-bottom: 0%;
+        line-height: 5vw;
+    }
+}
+/* 以上为轮播图 */
+
+
+
+
+/* 以下为如何学习板块 */
+#g-three {
+    margin: 100px 0;
+}
+.m-3a {
+    margin: 30px 0 20px 0;
+}
+.m-3b{
+    width: 160px;
+    border-left: 2px dashed #ccc;
+    padding-left: 20px;
+}
+.m-3c {
+    padding-top: 50px;
+}
+
+@media only screen and (max-width: 576px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+    .m-3b {
+        border:none;
+    }
+}
+
+.g-text {
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+    margin: 40px auto;
+}
+
+
+
+.m-4a {
+    margin: 40px 0 0 0;
+}
+.u-4a {
+    margin: 0 10% 0 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius:100%;
+    border: 1px solid rgba(153, 153, 153, 0.2);
+}
+
+.t-4a {
+    line-height: 35px;
+    text-align: center;
+    color: rgb(41, 176, 120);
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+}
+
+.t-4b{
+    width: 60%;
+    height: 20px;
+    font-size: 12px;
+    margin-right: 10%; 
+}
+
+@media only screen and (max-width: 991px) {
+    /* 媒体查询  如果浏览器宽度少于410则会变化，否则不变*/
+     .arrow {
+        display:none;
+    }
+}
+/* 以上为如何学习板块 */
+
+
+
+
+
+/* 以下为学员展示 */
+ul .active {
+    background-color: #29b078;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid ;
+}
+
+.m-5a {
+    margin-top: 30px;
+}
+.m-5b {
+    background-color: #fff;
+    width: 90%;
+    height: 100%;
+    padding: 10%;
+    margin: 0 auto;
+}
+
+.m-5c {
+   /* 消除定位 */
+   position: static; 
+   margin-top: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+.t-5a {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+/* 以上为学员展示 */
+
+
+
+/* 以下为战略合作企业 */
+.m-6a {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.m-6a:hover {
+    z-index: 1;
+    box-shadow: 0 0 20px rgb(153, 153, 153);
+}
+.m-6b {
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+    width: 100%;
+    height: 150px;
+}
+.alibaba {
+    margin:0 auto;
+}
+/* 以上为战略合作企业 */
+
+/* 以下为友情链接部分 */
+
+.g-seven {
+    background-color: #fff;
+}
+.g-seven p {
+    color: #bfbfbf;
+}
+.t-7a{
+    color: #bfbfbf;
+}
+/* 创建10等分 */
+.col-md-1-10 {
+    width: 10%;
+    float: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .col-lg-1-10 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media ( min-width : 768px) {
+    .col-lg-1-10 {
+    width: 50%;
+    float: left;
+    }
+}
+
+@media ( min-width : 992px) {
+    .col-lg-1-10 {
+    width: 20%;
+    float: left;
+    }
+}
+@media ( min-width : 1200px) {
+    .col-lg-1-10 {
+    width: 10%;
+    float: left;
+    }
+}
+
+.col-lg-1-10 {
+    text-align: center;
+    min-height: 1px;
+    position: relative;
+    }
+
+/* 以上为友情链接部分 */
