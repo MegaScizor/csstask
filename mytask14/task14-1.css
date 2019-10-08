@@ -78,7 +78,7 @@
 }
 
 .t-4b{
-    width: 60%;
+    width: 45%;
     height: 20px;
     font-size: 12px;
     margin-right: 10%; 
@@ -108,7 +108,8 @@ ul .active {
 }
 
 .m-5a {
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-bottom: 15px;
 }
 .m-5b {
     background-color: #fff;
@@ -117,6 +118,11 @@ ul .active {
     padding: 10%;
     margin: 0 auto;
 }
+.m-5b:hover {
+    z-index: 1;
+    box-shadow: 0 0 20px rgb(153, 153, 153);
+}
+
 
 .m-5c {
    /* 消除定位 */
